@@ -8,7 +8,7 @@
   "approval": false,
   "saveState": true,
   "BOTNAME": "MAHABUB_BOT",
-  "PREFIX": "/",
+  "PREFIX": "?",
   "OPERATOR": [
     "100014896964436",
     "100000959749712",
@@ -18,8 +18,8 @@
   "ADMINBOT": [
     "100014754734049",
     "100090361566764",
-    "100084783334694",
     ""
+    
 
     
   ],
