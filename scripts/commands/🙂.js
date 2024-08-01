@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("🙂")==0 || event.body.indexOf("🙂")==0 || event.body.indexOf("🙂")==0 || event.body.indexOf("🙂")==0) {
 		var msg = {
-				body: "-উপন‍্যাসের  উপসংহারে  যদি বিচ্ছেদ  লিখা থাকে  \n'' তবে সুচনা কেনো এত রঙিন হয়''!! 🖤 \nミM　Á　H　Â　B　Ü　 Rミ",
+				body: "-উপন‍্যাসের  উপসংহারে  যদি বিচ্ছেদ  লিখা থাকে  \n'' তবে সুচনা কেনো এত রঙিন হয়''!! 🖤 \nミOMEミ",
 				attachment: fs.createReadStream(__dirname + `/cache/dk.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
